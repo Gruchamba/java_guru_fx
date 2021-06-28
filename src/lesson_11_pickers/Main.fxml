@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="pane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lesson_11_pickers.Controller">
+   <children>
+      <ColorPicker fx:id="colorPicker" layoutX="367.0" layoutY="200.0" onAction="#changeColor" />
+      <DatePicker fx:id="datePicker" layoutX="91.0" layoutY="200.0" onAction="#setText" />
+      <Label fx:id="dateLabel" alignment="CENTER" layoutX="204.0" layoutY="91.0" text="Выбранная дата">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
